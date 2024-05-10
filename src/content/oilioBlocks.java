@@ -114,7 +114,7 @@ public class oilioBlocks {
             itemCapacity = 20;
             craftTime = 120;
             liquidCapacity = 80f * 5;
-
+            hasLiquids = true;
             ambientSound = Sounds.smelter;
             ambientSoundVolume = 0.9f;
 
