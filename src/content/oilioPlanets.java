@@ -14,10 +14,10 @@ import mindustry.type.Planet;
 public class oilioPlanets{
 
         public static Planet
-                dvr;
+                oilio;
 
         public static void load(){
-        dvr = new Planet("Oilio", Planets.sun, 12f, 2) {{
+        oilio = new Planet("Oilio", Planets.sun, 12f, 2) {{
             generator = new SerpuloPlanetGenerator();
             meshLoader = () -> new HexMesh(this, 6);
             cloudMeshLoader = () -> new MultiMesh(
@@ -33,7 +33,6 @@ public class oilioPlanets{
             allowLaunchSchematics = true;
             enemyCoreSpawnReplace = true;
             allowLaunchLoadout = true;
-            //doesn't play well with configs
             prebuildBase = false;
             ruleSetter = r -> {
                 r.waveTeam = Team.crux;
@@ -49,6 +48,10 @@ public class oilioPlanets{
             landCloudColor = Pal.spore.cpy().a(0.5f);
             hiddenItems.addAll(Items.erekirItems).addAll(Items.serpuloItems).removeAll(oilioItems.ddItems);
             unlockedOnLand.add(oilioBlocks.corebase);
+            accessible = false;
+            visible = false;
+            iconColor = Color.valueOf("597be3");
+            startSector = 1;
         }};
 
             Planets.serpulo.hiddenItems.addAll(oilioItems.ddItems).removeAll(Items.serpuloItems);

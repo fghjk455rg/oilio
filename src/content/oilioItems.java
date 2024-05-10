@@ -20,7 +20,7 @@ public class oilioItems {
         }};
 
         ddItems.addAll (
-                graphite,lead,sand,tungsten,metaglass,titanium,plastanium,carbide
+                graphite,titanium,silicon,plastanium,tungsten,thorium,fissileMatter
         );
     }
 }
