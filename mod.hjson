@@ -1,0 +1,11 @@
+displayName: "oilio"
+name:"oilio"
+author: "Enless and every who helped me"
+main: "example.ExampleJavaMod"
+description: "WorkInProgress"
+version: 0.0.56
+minGameVersion: "146"
+java: true
+hidden: false
+hideBrowser: false
+subtitle: "333"
