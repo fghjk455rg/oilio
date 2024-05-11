@@ -42,14 +42,14 @@ public class oilioBlocks {
     public static void load() {
         //production
 
-        icp = new Pump("pie"){{
+        icp = new Pump("icp"){{
             requirements(Category.liquid, with(Items.lead, 10, Items.graphite, 16));
             size = 2;
             pumpAmount = 6f / 60f;
             alwaysUnlocked = true;
         }};
 
-        icd = new Drill("die"){{
+        icd = new Drill("icd"){{
             requirements(Category.production, with(Items.graphite, 12));
             tier = 3;
             drillTime = 120;
@@ -59,8 +59,8 @@ public class oilioBlocks {
 
         pumpingunit = new Pump("pumping-unit"){{
             requirements(Category.liquid, with(Items.lead, 10, Items.graphite, 16));
-            size = 2;
-            pumpAmount = 6f / 60f;
+            size = 3;
+            pumpAmount = 12f / 60f;
             researchCost = with(Items.lead, 40, Items.graphite, 64);
         }};
 
@@ -84,7 +84,7 @@ public class oilioBlocks {
             ambientSound = Sounds.smelter;
             ambientSoundVolume = 0.06f;
 
-            researchCost = with(Items.lead, 80, Items.graphite, 120);
+            researchCost = with(Items.lead, 8, Items.graphite, 12);
         }};
 
         //crafting

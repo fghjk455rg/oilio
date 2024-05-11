@@ -1,11 +1,11 @@
-displayName: "oilio"
+displayName: "OIlIO"
 name:"oilio"
-author: "Enless and every who helped me"
+author: "Enless, Nekit508, Kanutah Doshik"
 main: "example.ExampleJavaMod"
 description: "WorkInProgress"
-version: 0.0.56
+version: 0.0.1
 minGameVersion: "146"
 java: true
-hidden: false
-hideBrowser: false
-subtitle: "333"
+hidden: true
+hideBrowser: true
+subtitle: "Every for himself"

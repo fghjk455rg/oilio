@@ -1,1 +1,1 @@
-# A Java Mindustry mod.
+# RTS Mindustry mod.
