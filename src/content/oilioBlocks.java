@@ -16,7 +16,6 @@ import mindustry.world.blocks.power.ConsumeGenerator;
 import mindustry.world.blocks.production.Drill;
 import mindustry.world.blocks.production.GenericCrafter;
 import mindustry.world.blocks.production.Pump;
-import mindustry.world.blocks.storage.CoreBlock;
 import mindustry.world.draw.*;
 
 import static mindustry.type.ItemStack.with;
@@ -188,19 +187,6 @@ public class oilioBlocks {
         }};
 
         //storage
-
-        corebase = new CoreBlock("core-base"){{
-            requirements(Category.effect, with( Items.copper, 1));
-            size = 4;
-            alwaysUnlocked = true;
-            isFirstTier = true;
-            unitType = oilioUnitTypes.hodor;
-            health = 2000;
-            itemCapacity = 2000;
-            unitCapModifier = 10;
-            squareSprite = false;
-        }};
-
         //turret
         //ore
 

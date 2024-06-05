@@ -27,7 +27,7 @@ public class oilioUnitTypes {
 
             ammoType = new PowerAmmoType(1000);
 
-            weapons.add(new Weapon("dd-hodor-weapon"){{
+            weapons.add(new Weapon("oilio-hodor-weapon"){{
                 top = false;
                 shootY = 2f;
                 reload = 30f;

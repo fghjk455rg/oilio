@@ -8,6 +8,7 @@ import content.oilioItems;
 import content.oilioLiquids;
 import content.oilioUnitTypes;
 import content.oilioPlanets;
+import content.liincBlocks;
 import mindustry.game.EventType.ClientLoadEvent;
 import mindustry.mod.Mod;
 import mindustry.ui.dialogs.BaseDialog;
@@ -33,5 +34,6 @@ public class ExampleJavaMod extends Mod{
         oilioUnitTypes.load();
         oilioBlocks.load();
         oilioPlanets.load();
+        liincBlocks.load();
     }
 }
